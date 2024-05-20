@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+body{
+	 font: Courier, monospace;
+	  margin: 0;
+	  padding: 0;
+}
+
+#disenoenc{
+	         background:     #004080;
+	         color:         #f2f2f2;         
+	         padding: 30px;
+	         text-align: center;
+	         font-size: 25px;	
+}
+
+.linksinfo{
+	         padding: 10px;
+	         color: white;
+	         font-size: 17px;	
+	         text-align: center;                 
+}
+.principal{
+		         color: #f2f2f2;
+		         text-align: left;           
+		         background:     #004080;	    
+		         padding: 30px;
+		         font-size: 20px;
+}
+
+a{
+	         color:  #4db8ff;
+}
+
+.nombres{
+	         background:      #0066cc;  
+	                 
+}
+
+.horarios{
+	         background:    #0066cc;    
+	         padding: 15px;	         
+}
+
+.links{
+	
+	 background:     #0066cc;  
+	 
+}
+
+.titulos{
+	    font-style: oblique;
+}
+
+table{
+	    text-align: center;
+	    background: #004080;;
+}
+
+ul{
+	  font-size: 25px;
+	 
+}
+ol{
+	 font-size: 25px;
+} 
+
+.adicion{
+	
+	 background:  white;
+	 font-style: oblique;
+	 font-size: 25px;
+}
+
+.adiciontitulo{
+	             font-size: 20px;
+	             font-style: oblique;
+	             text-decoration: underline;
+}
+.imagen{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-top: 100px;
+}
+
+#contacto{
+	       background:  #004080;   
+	       color: white;
+	       font-size: 25px;
+	       font-style: oblique;
+}
+
+.redes{ 
+          	font-size: 20px;
+	        
+}
+
+
+
+
+
+
+.formulario{
+                text-align: center;
+                padding: 40px;	
+                background: #0077b3;
+                color: white; 
+                font-size: 20px;
+                
+}
+
+#nombres{
+	            
+	            color: #004080;
+	            border: 1px solid #004080;
+	             margin-bottom: 8px;
+}
+#apellidos{
+	          
+	            color: #004080;
+	            border: 1px solid #004080;
+	             margin-bottom: 8px;
+}
+#fechaNacimiento{
+	            	           
+	            color: #004080;
+	            border: 1px solid #004080;
+	            margin-bottom: 20px;
+}
+#dni{
+	   	         
+	            color: #004080;
+	            border: 1px solid #004080;
+	            margin-bottom: 8px;
+}
+
+.selgen{
+	font-size: 25px;
+	background:  #004080;
+	border-radius: 5px;
+}
+
+#genero{         
+	             color: #004080;
+	             margin-bottom: 20px;
+	             
+}
+#correoElectronico{
+	             color: #004080;
+	             border: 1px solid #004080;
+	             margin-bottom: 8px;
+	            
+}
+#domicilio{
+	             color: #004080;
+	             border: 1px solid #004080;
+	             margin-bottom: 8px;
+	             
+}
+#provincia{
+	             color: #004080;
+	             border: 1px solid #004080;
+	             margin-bottom: 8px;
+}
+#telefonoCel{
+	             color: #004080;
+	             border: 1px solid #004080;
+	             margin-bottom: 20px;
+}
+.selcat{
+	         font-size: 25px;
+	         background:  #004080;
+	         border-radius: 5px;
+}
+#categoria{
+	             color: #004080;
+	             border: 1px solid #004080;
+	             margin-bottom: 20px;
+}
+#sugerencias{
+	             color: #004080;
+	             border: 1px solid #004080;
+	             margin-bottom: 8px;
+}
+#Password{
+	             color: #004080;
+	             border: 1px solid #004080;
+	             margin-bottom: 8px;
+}
+#terminosCondiciones{
+	             color: #004080;
+	             border: 1px solid #004080;
+	             margin-bottom: 8px;
+}
+#recibirinfo{
+	             color: #004080;
+	             border: 1px solid #004080;
+	             margin-bottom: 8px;
+}
+
+#enviar{
+		             padding: 10px;
+		             color: #004080;
+		             border: 3px solid #004080;
+		             border-radius: 5px;
+		             width: 150px;	            
+                     font-size: 16px;	
+                     font-family: monospace;        
+}
