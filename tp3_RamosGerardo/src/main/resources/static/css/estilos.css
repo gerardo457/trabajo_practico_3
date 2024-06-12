@@ -13,6 +13,12 @@ body{
 	         text-align: center;
 	         font-size: 25px;	
 }
+#disenofooter{
+	         background:     #004080;
+	         color:         #f2f2f2;         
+	         text-align: center;	
+	         padding: 15px;
+}
 
 .linksinfo{
 	         padding: 10px;

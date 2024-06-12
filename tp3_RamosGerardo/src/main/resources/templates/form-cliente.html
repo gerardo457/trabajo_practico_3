@@ -26,10 +26,10 @@
 	              <label for="fechaNacimiento">Fecha de nacimiento:</label>
 		          <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
 		          
-		          <label for="genero" class="selgen">Genero:</label> <br>
-		          <input type="radio" id="genero" name="genero" value="masculino"/>Masculino
-		          <input type="radio" id="genero" name="genero" value="femenino"/> Femenino
-		          <input type="radio" id="genero" name="genero" value="otro"/> Otro <br/>
+		          <label class="selgen">Genero:</label> <br>
+		          <input type="radio" id="generomasculino" name="genero" value="masculino">Masculino
+		          <input type="radio" id="generofemenino" name="genero" value="femenino"> Femenino
+		          <input type="radio" id="generootro" name="genero" value="otro"> Otro <br>
 		                    
 		          <label for="correoElectronico">Correo Electronico:</label>
 		          <input type="email" name="correoElectronico" id="correoElectronico" required><br>
@@ -39,6 +39,7 @@
 		          
 		          <label for="provincia">Provincia:</label>
 		          <select id="provincia" name="provincia" required>
+		             <option value=""></option>
 		             <option value="JUJUY">Jujuy </option>
 		             <option value="SALTA">Salta </option>
 		             <option value="TUCUMAN">Tucuman </option>
@@ -65,28 +66,28 @@
 		          </select><br>	          
 		           
 		          <label for="telefonoCel">Telefono Celular:</label>
-		          <input type="number" id="telefonoCel" name="telefonoCel"><br/>
+		          <input type="number" id="telefonoCel" name="telefonoCel"><br>
 		                   
-		          <label for="interes" class="selcat">Categorías de interés: </label> <br/>
+		          <label class="selcat">Categorías de interés: </label> <br>
 		           Categoria 1 
-		          <input type="checkbox" name="categoria" id= "categoria" value= categoria1/> 
+		          <input type="checkbox" name="categoria" id= "categoria1" value= categoria1/> 
 		           Categoria 2
-		          <input type="checkbox" name= "categoria" id= "categoria" value= categoria2/>
+		          <input type="checkbox" name= "categoria" id= "categoria2" value= categoria2/>
 		           Categoria 3
-		          <input type="checkbox" name= "categoria" id= "categoria" value= categoria3/> <br/>
+		          <input type="checkbox" name= "categoria" id= "categoria3" value= categoria3/> <br>
 		          	 	      
-		          <label for="sugerencias">Sugerencias para la empresa: </label> <br/>
+		          <label for="sugerencias">Sugerencias para la empresa: </label> <br>
 		        	 	      
-		          <textarea name="sugerencias" id="sugerencias" rows="5" cols="30"></textarea> <br/>
+		          <textarea name="sugerencias" id="sugerencias" rows="5" cols="30"></textarea> <br>
 		          
 		          <label for="Password">Ingrese contraseña: </label>
-		          <input type="password" id="Password" name="Password" required> <br/>	    
+		          <input type="password" id="Password" name="Password" required> <br>	    
 		          
-		          <label for="terminosCondiciones"></label> <br/>
+		          <label for="terminosCondiciones"></label> <br>
 		           Acepto los términos y condiciones
 		          <input type="checkbox" name="terminosCondiciones" id="terminosCondiciones" value="terminosCondiciones" required>
 		                    
-		          <label for="recibirinfo"></label> <br/>
+		          <label for="recibirinfo"></label> <br>
 		           Acepto recibir información relativa a la empresa
 		          <input type="checkbox" name="recibirinfo" id="recibirinfo" value="recibirinfo"> <br>
 		          
@@ -94,5 +95,9 @@
 		          <h4>Enviar Formulario</h4>
 		          <button type="submit" id="enviar">Enviar</button>
 	         </form>
+	         
+	         <footer id="disenofooter">
+	                <h4>Programacion Visual | Derechos reservados</h4> 
+	         </footer>
 	</body>
 </html>
